@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /education/
-title: Education
+title: Education (Under construction)
 description: A partial collection of the courses I have taken.
 nav: true
 nav_order: 1
