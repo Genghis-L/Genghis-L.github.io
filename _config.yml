@@ -2,24 +2,26 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: Kehan
-middle_name: (Genghis)
-last_name: Luo
-email: kl4747@nyu.edu
+title: Yao (Charlie) Xiao # the website title (if blank, full name will be used instead)
+first_name: Yao
+middle_name: (Charlie)
+last_name: Xiao
+email: yx2436@nyu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Kehan Luo's portfolio website.
+  Yao Xiao's portfolio website.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: academic-website, portfolio-website, nyu-shanghai, honors-mathematics, data-science  # add your own keywords or leave empty
+keywords: academic-website, portfolio-website, nyu-shanghai, honors-mathematics, computer-science  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: G  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+# https://www.flaticon.com/free-icons/portfolio
+# Portfolio icons created by Freepik - Flaticon
+icon: portfolio-icon.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://Genghis-L.github.io # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
+url: https://charlie-xiao.github.io # the base hostname & protocol for your site
+baseurl:  # the subpath of your site, e.g. /blog/
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -58,7 +60,6 @@ max_width: 800px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-# see https://schema.org/docs/faq.html for more information
 serve_og_meta: false # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
@@ -69,7 +70,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: Genghis-L # your GitHub user name
 gitlab_username: # your GitLab user name
-x_username: KehanLuo2 # your X handle
+twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: genghisluo # your LinkedIn user name
 telegram_username: # your Telegram user name
@@ -96,26 +97,23 @@ lastfm_id: # your lastfm id
 spotify_id: # your spotify id
 pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
-instagram_id: genghis__luo # your instagram id
-facebook_id: GenghisLuo # your facebook id
+instagram_id: # your instagram id
+facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  Email & Linkedin are more preferred to reaching me.
+  Email & Linkedin are preferred. 
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-# For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
-# and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
 google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
-# For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
@@ -123,9 +121,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Genghis Luo # blog_name will be displayed in your blog page
+blog_name: Luo Kehan # blog_name will be displayed in your blog page
 blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: 
+blog_description: Sophomore @ NYU Shanghai, Honors Mathematics + Data Science
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -137,12 +135,11 @@ related_blog_posts:
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
-# Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
+# Follow instructions on https://giscus.app/ to setup for your repo to fill out
+# the information below.
 giscus:
-  repo:                          # <your-github-user-name>/<your-github-repo-name>
-  repo_id:                       # leave empty or specify your repo_id (see https://giscus.app/)
-  category: Comments             # name of the category under which discussions will be created
-  category_id:                   # leave empty or specify your category_id (see https://giscus.app/)
+  repo: 
+  category:             # name of the category under which discussions will be created
   mapping: title                 # identify discussions by post title
   strict: 1                      # use strict identification mode
   reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
@@ -158,9 +155,11 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+# For instance:
+#
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -175,11 +174,14 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  education:
+    output: true
+    permalink: /education/:path/
 
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 3 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true
@@ -218,6 +220,7 @@ keep_files:
 # Plug-ins
 plugins:
   - jekyll-archives
+  - jekyll-diagrams
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -266,8 +269,8 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['formatting', 'images', 'links', 'math', 'code'] # these tags will be displayed on the front page of your blog
-display_categories: ['blockquotes'] # these categories will be displayed on the front page of your blog
+display_tags: [] # these tags will be displayed on the front page of your blog
+display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -306,7 +309,7 @@ enable_publication_badges:
   dimensions: true # Dimensions badge (https://badge.dimensions.ai/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords: [abbr, abstract, altmetric, arxiv, bibtex_show, blog, code, html, pdf, poster, preview, selected, slides, supp, video, website]
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: 3  # leave blank to always show all authors
@@ -331,14 +334,11 @@ external_links:
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
 
-# MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
-#   convert -version
 imagemagick:
   enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800
-    - 1400
   input_directories:
     - assets/img/
   input_formats:
@@ -348,25 +348,39 @@ imagemagick:
     - ".tiff"
     - ".gif"
   output_formats:
-    webp: "-quality 85"
+    webp: "-resize 800x"
+
+# -----------------------------------------------------------------------------
+# Jekyll Diagrams
+# -----------------------------------------------------------------------------
+
+jekyll-diagrams:
+    # configuration, see https://github.com/zhustec/jekyll-diagrams.
+    # feel free to comment out this section if not using jekyll diagrams.
 
 
 # -----------------------------------------------------------------------------
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
-enable_cronitor_analytics:  false  # enables cronitor RUM analytics
-enable_google_verification: false  # enables google site verification
-enable_bing_verification:   false  # enables bing site verification
-enable_masonry:             true   # enables automatic project cards arrangement
-enable_math:                true   # enables math typesetting (uses MathJax)
-enable_tooltips:            false  # enables automatic tooltip links generated for each section titles on pages and posts
-enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the navbar on the about page
-enable_project_categories:  true   # enables categorization of projects into multiple categories
-enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
-enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
+enable_google_analytics:     false  # enables google analytics
+enable_cronitor_analytics:   false  # enables cronitor RUM analytics
+enable_google_verification:  false  # enables google site verification
+enable_bing_verification:    false  # enables bing site verification
+enable_masonry:              true   # enables automatic project cards arrangement
+enable_math:                 true   # enables math typesetting (uses MathJax)
+enable_tooltips:             false  # enables automatic tooltip links generated
+                                    # for each section titles on pages and posts
+enable_darkmode:             true   # enables switching between light/dark modes
+enable_navbar_social:        false  # enables displaying social links in the
+                                    # navbar on the about page
+enable_project_categories:   true   # enables categorization of projects into
+                                    # multiple categories
+enable_education_categories: true   # enables categorization of educations into
+                                    # multiple categories
+enable_medium_zoom:          true   # enables image zoom feature (as on medium.com)
+enable_progressbar:          true   # enables a horizontal progress bar linked to the vertical scroll position
+enable_back_to_top:          true   # enables a back-to-top button in the footer bar
 
 # -----------------------------------------------------------------------------
 # Library versions
@@ -396,18 +410,5 @@ medium_zoom:
 # -----------------------------------------------------------------------------
 
 jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+  - data: resume  # site.data.resume
+    json: assets/json/resume.json

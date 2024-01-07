@@ -1,1 +1,0 @@
-I'm Luo Kehan 骆可瀚, you can call me Genghis. Now I am a sophomore in NYU Shanghai, majoring in Honors Maths and Data Science. I am the president of Math Society 2023-2024 as well as the Learning Assistant of Linear Algebra at 2023 fall semester. Academically, I have done an independent research focusing on roots of matrices, and attended the 2023 Spring Symposium.

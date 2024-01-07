@@ -4,6 +4,7 @@
   <head>
     {%- include head.html %}
 
+    <!-- support medium-zoom -->
     {%- if site.enable_medium_zoom %}
       <!-- Medium Zoom JS -->
       <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@{{ site.medium_zoom.version }}/dist/medium-zoom.min.js" integrity="{{ site.medium_zoom.integrity }}" crossorigin="anonymous"></script>
@@ -72,9 +73,8 @@
         <h1>{{ page.title }}</h1>
         <p>{{ page.description }}</p>
       </d-title>
-      {%- if page.authors -%}
+
       <d-byline></d-byline>
-      {%- endif -%}
 
       <d-article>
         {% if page.toc -%}
@@ -120,5 +120,6 @@
     {% include scripts/bootstrap.html %}
     {% include scripts/analytics.html %}
     {% include scripts/progressBar.html %}
+    {% include scripts/backToTop.html %}
   </body>
 </html>
