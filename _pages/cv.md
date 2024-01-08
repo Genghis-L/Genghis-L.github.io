@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
-title: CV (Under construction)
+title: CV
 nav: true
 nav_order: 3
 cv_pdf: Lkh-Resume.pdf
