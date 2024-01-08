@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-09-26
+date: 2023-09
 inline: true
 related_posts: false
 ---
 
-[DISC-LawLLM](https://github.com/FudanDISC/DISC-LawLLM) is made open source.
+I have become the president of [Math Society](https://engage.shanghai.nyu.edu/organization/mathematics-society) 2023-2024.
