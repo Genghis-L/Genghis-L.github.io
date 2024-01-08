@@ -2,10 +2,10 @@
 layout: page
 title: Projects (Under construction)
 permalink: /projects/
-description: Collection of my projects, including dumb ones 🙃.
+description: Collection of my projects.
 nav: true
 nav_order: 2
-display_categories: [Open Source Development, Academic, Work, Course Projects]
+display_categories: [Academic, Competition, Course Projects]
 ---
 
 <!-- pages/projects.md -->
