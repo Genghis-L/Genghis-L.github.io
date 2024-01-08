@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: Collection of my projects.
 nav: true
-nav_order: 2
+nav_order: 1
 display_categories: [Academic, Competition, Course Projects]
 ---
 
