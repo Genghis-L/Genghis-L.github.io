@@ -3,7 +3,6 @@ layout: about
 title: About
 permalink: /
 subtitle: Sophomore @ NYU Shanghai
-nav order: 0
 
 profile:
   align: right
