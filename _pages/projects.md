@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A partial collection of my projects, including some dumb ones. 🙃
+description: Project Collections focusing on Mathematics and Data Science
 nav: true
 nav_order: 3
 display_categories:
