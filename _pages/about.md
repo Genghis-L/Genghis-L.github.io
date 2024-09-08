@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Sophomore @ NYU Shanghai
+subtitle: Junior @ NYU Shanghai
 
 profile:
   align: right
