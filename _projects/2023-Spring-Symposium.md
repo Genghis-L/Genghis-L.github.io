@@ -4,7 +4,7 @@ title: Unveiling the Roots of Matrices - A Generalization and Field Extension of
 description: 2023 Spring Symposium
 img: assets/img/2023-Spring-Symposium.png
 importance: 100
-category: Academic 
+category: Mathematics
 
 authors:
   - name: Kehan Luo
