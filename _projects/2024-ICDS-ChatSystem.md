@@ -1,10 +1,10 @@
 ---
 layout: distill
-title: Analyzing Wordle
-description: The 2023 Mathematical Contest in Modeling (MCM)
+title: Course Project_Chat System
+description: NYUSH 2024 Spring ICDS Course Project
 img: assets/img/2024-ICDS-ChatSystem.png
 importance: 100
-category: Mathematics
+category: Data Science
 
 authors:
   - name: Kehan Luo
@@ -21,8 +21,7 @@ shortcuts:
   - name: Presentation Video
     link: https://www.youtube.com/watch?v=4Y151WKQukI&t=159s
   - name: Code
-    link: https://github.com/Genghis-L/Spring-2024-ICDS
-
+    link: https://github.com/Genghis-L/Spring-2024-ICDS/tree/main/Final%20Projects
 
 toc:
   - name: Overview
