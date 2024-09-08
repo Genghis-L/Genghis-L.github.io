@@ -8,5 +8,5 @@ children:
   - title: English
     permalink: /assets/pdf/Resume-Kehan-Luo.pdf
   - title: 中文
-    permalink: /assets/pdf/Lkh-resume(Chinese).pdf
+    permalink: /assets/pdf/Resume-Kehan-Luo-Chinese.pdf
 ---
