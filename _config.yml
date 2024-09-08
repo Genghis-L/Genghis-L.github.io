@@ -2,21 +2,21 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Yao Xiao # the website title (if blank, full name will be used instead)
-first_name: Yao
+title: Kehan Luo # the website title (if blank, full name will be used instead)
+first_name: Kehan
 middle_name:
-last_name: Xiao
-email: yaoxiao@g.harvard.edu
+last_name: Luo
+email: kl4747@nyu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Yao Xiao's portfolio website.
+  Kehan Luo's portfolio website.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> from <a href="https://github.com/Charlie-XIAO/Charlie-XIAO.github.io">GitHub</a>.
-keywords: Yao Xiao, Charlie-XIAO # add your own keywords or leave empty
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> from <a href="https://github.com/Charlie-Luo/Charlie-Luo.github.io">GitHub</a>.
+keywords: Kehan Luo, Charlie-Luo # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: icons/code.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://charlie-xiao.github.io # the base hostname & protocol for your site
+url: https://Genghis-L.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -70,14 +70,14 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-acm_id: 99661283644 # your dl.acm.org/profile/id
+acm_id: # your dl.acm.org/profile/id
 blogger_url: # your blogger URL
 bluesky_url: # your bluesky URL
 dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
-github_username: Charlie-XIAO
+github_username: Genghis-L
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 inspirehep_id: # Inspire HEP author ID
@@ -86,16 +86,16 @@ kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-linkedin_username: yao-xiao-200073244
+linkedin_username: genghisluo
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
-orcid_id: 0009-0007-9572-8529 # your ORCID ID
+orcid_id: # your ORCID ID
 osf_id: # your OSF ID
 pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
+scholar_userid: # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
 spotify_id: # your spotify id
@@ -132,8 +132,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Yao Xiao # blog_name will be displayed in your blog page
-blog_description: MSCSE @ Harvard SEAS
+blog_name: Kehan Luo # blog_name will be displayed in your blog page
+blog_description: I wrote some stuff here, could be math
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -148,7 +148,7 @@ related_blog_posts:
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
-  repo: Charlie-XIAO/Charlie-XIAO.github.io # <your-github-user-name>/<your-github-repo-name>
+  repo: Genghis-L/Genghis-L.github.io # <your-github-user-name>/<your-github-repo-name>
   repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
   category: Comments # name of the category under which discussions will be created
   category_id: # leave empty or specify your category_id (see https://giscus.app/)
@@ -161,17 +161,17 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: yao-xiao # put your disqus shortname
+disqus_shortname: GenghisLuo # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: Scikit-learn Blog
-    posts:
-      - url: https://blog.scikit-learn.org/team/yao-interview/
-        published_date: 2024-07-18
+# external_sources:
+#   - name: Scikit-learn Blog
+#     posts:
+#       - url: https://blog.scikit-learn.org/team/Kehan-interview/
+#         published_date: 2024-07-18
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -307,8 +307,8 @@ display_categories: ["open-source"] # these categories will be displayed on the 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Xiao]
-  first_name: [Yao, Y.]
+  last_name: [Luo]
+  first_name: [Kehan, Y.]
 
   style: apa
   locale: en
@@ -520,7 +520,7 @@ third_party_libraries:
     integrity:
       css: "sha256-q9ba7o845pMPFU+zcAll8rv+gC+fSovKsOoNQ6cynuQ="
       js: "sha256-MgH13bFTTNqsnuEoqNPBLDaqxjGH+lCpqrukmXc8Ppg="
-      js_map: "sha256-YAoQ3FzREN4GmVENMir8vgHHypC0xfSK3CAxTHCqx1M="
+      js_map: "sha256-KehanQ3FzREN4GmVENMir8vgHHypC0xfSK3CAxTHCqx1M="
     local:
       images: "images/"
     url:
