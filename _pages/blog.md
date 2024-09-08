@@ -172,7 +172,7 @@ pagination:
   </ul>
 
   {%- if page.pagination.enabled -%}
-    {%- include pagination.html -%}
+    {%- include pagination.liquid -%}
   {%- endif -%}
 
 </div>

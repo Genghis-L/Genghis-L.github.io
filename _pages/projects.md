@@ -19,7 +19,7 @@ display_categories: [Academic, Competition, Course Projects]
     <!-- Generate container for each project -->
     <ol class="container">
       {%- for project in sorted_projects -%}
-        <li><div class="row">{% include projects.html %}</div></li>
+        <li><div class="row">{% include projects.liquid %}</div></li>
       {%- endfor %}
     </ol>
   {% endfor %}
@@ -30,7 +30,7 @@ display_categories: [Academic, Competition, Course Projects]
   <!-- Generate container for each project -->
   <ol class="container">
     {%- for project in sorted_projects -%}
-      <li><div class="row">{% include projects.html %}</div></li>
+      <li><div class="row">{% include projects.liquid %}</div></li>
     {%- endfor %}
   </ol>
 {%- endif -%}
