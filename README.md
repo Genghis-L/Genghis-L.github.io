@@ -1,5 +1,4 @@
-# Genghis Luo
+# Charlie-XIAO
 
-This is the repository for my [personal website](https://Genghis-L.github.io).
-
-> Powered by [al-folio](https://github.com/alshedivat/al-folio).
+This is the repository for my [personal website](https://charlie-xiao.github.io), made
+with the [al-folio](https://github.com/alshedivat/al-folio) theme.

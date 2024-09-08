@@ -16,4 +16,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm Luo Kehan 骆可瀚, you can call me Genghis. Now I am a sophomore in NYU Shanghai, majoring in Honors Maths and Data Science. I am the president of Math Society 2023-2024 as well as the Learning Assistant of Linear Algebra at 2023 fall semester. Academically, I have done an independent research focusing on roots of matrices, and attended the 2023 Spring Symposium.
+I'm Luo Kehan 骆可瀚, you can call me Genghis. Now I am a junior undergraduate student in NYU Shanghai, majoring in Honors Maths and Data Science. I am the president of Math Society 2023-2024 as well as the Learning Assistant of Linear Algebra at 2023 fall semester. Academically, I have completed a Dean Undergraduate Research Fund (DURF) project on Modern Optimization Theories, and an individual research on Linear Algebra Theories presented at NYUSH Spring 2024 Academic Symposium
