@@ -5,7 +5,7 @@
 title: Kehan Luo # the website title (if blank, full name will be used instead)
 first_name: Kehan
 middle_name:
-last_name: Luo
+last_name: Luo (Genghis)
 email: kl4747@nyu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Kehan Luo's portfolio website.
@@ -299,8 +299,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["scikit-learn"] # these tags will be displayed on the front page of your blog
-display_categories: ["open-source"] # these categories will be displayed on the front page of your blog
+display_tags: ["Python", "Matlab", "R", "C"] # these tags will be displayed on the front page of your blog
+display_categories: ["Mathematics", "Data Science"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

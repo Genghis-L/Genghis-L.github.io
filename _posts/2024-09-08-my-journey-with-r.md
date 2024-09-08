@@ -2,7 +2,7 @@
 layout: post
 title: "My Journey with R: Exploring Data Science with R Language"
 description: "A reflection on learning R and its applications in data science and statistical analysis."
-tags: [R, data science, programming, learning]
+tags: [R]
 categories: [Learning, Data Science]
 date: 2024-09-08
 ---
