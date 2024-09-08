@@ -37,7 +37,7 @@ I attended the NYUSH 2023 Fall Symposium to present the results of this research
 
 <div class="row mt-3">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html
+    {% include figure.liquid
       path="assets/img/2023-Spring-Symposium/1.jpg"
       class="img-fluid rounded z-depth-1"
       zoomable=true
@@ -47,7 +47,7 @@ I attended the NYUSH 2023 Fall Symposium to present the results of this research
 
 <div class="row mt-3">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html
+    {% include figure.liquid
       path="assets/img/2023-Spring-Symposium/2.jpg"
       class="img-fluid rounded z-depth-1"
       zoomable=true
@@ -57,7 +57,7 @@ I attended the NYUSH 2023 Fall Symposium to present the results of this research
 
 <div class="row mt-3">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html
+    {% include figure.liquid
       path="assets/img/2023-Spring-Symposium/3.jpg"
       class="img-fluid rounded z-depth-1"
       zoomable=true
@@ -67,7 +67,7 @@ I attended the NYUSH 2023 Fall Symposium to present the results of this research
 
 <div class="row mt-3">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html
+    {% include figure.liquid
       path="assets/img/2023-Spring-Symposium/4.jpg"
       class="img-fluid rounded z-depth-1"
       zoomable=true
