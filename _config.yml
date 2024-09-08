@@ -307,8 +307,8 @@ display_categories: ["open-source"] # these categories will be displayed on the 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Luo]
-  first_name: [Kehan, Y.]
+  last_name: [Kehan]
+  first_name: [Luo]
 
   style: apa
   locale: en
