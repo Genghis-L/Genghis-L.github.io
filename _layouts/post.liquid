@@ -14,7 +14,7 @@ layout: default
 
 {% assign url_beginning = page.url | slice: 0, 6 %}
 
-<div class="post">
+<div class="post {% unless page.nav %}single-page{% endunless %}">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
@@ -80,7 +80,7 @@ layout: default
   {% if page.related_publications %}
     <h2>References</h2>
     <div class="publications">
-      {% bibliography --cited_in_order %}
+      {% bibliography --group_by none --cited_in_order %}
     </div>
   {% endif %}
 

@@ -1,3 +1,9 @@
+- **[#26367](https://github.com/scikit-learn/scikit-learn/pull/26367)** ENH `despine` keyword for ROC and PR curves
+- **[#29863](https://github.com/scikit-learn/scikit-learn/pull/29863)** MAINT filename typo `test_monotonic_contraints` -> `constraints`
+- **[#29848](https://github.com/scikit-learn/scikit-learn/pull/29848)** DOC fix all unintentional block quotes in docs
+- **[#29843](https://github.com/scikit-learn/scikit-learn/pull/29843)** MAINT set commit status during lock-files update in PR
+- **[#29700](https://github.com/scikit-learn/scikit-learn/pull/29700)** DOC update sphinx-gallery 0.17.1 and remove our workaround
+- **[#27516](https://github.com/scikit-learn/scikit-learn/pull/27516)** DOC `GradientBoosting*` will not implement monotonic constraints, use `HistGradientBoosting*` instead
 - **[#29701](https://github.com/scikit-learn/scikit-learn/pull/29701)** MAINT fix bot for lock files update on comment
 - **[#29505](https://github.com/scikit-learn/scikit-learn/pull/29505)** MAINT trigger lock file update in PR with a comment
 - **[#29544](https://github.com/scikit-learn/scikit-learn/pull/29544)** DOC fix links in the machine learning map
