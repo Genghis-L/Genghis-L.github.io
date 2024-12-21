@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: MSCSE @ Harvard SEAS
+subtitle: Junior @ NYU Shanghai
 
 profile:
   align: right
