@@ -1,7 +1,14 @@
 github_users:
-  - Genghis-L
+  - torvalds
+  - alshedivat
+
+repo_description_lines_max: 2
 
 github_repos:
-  - 2023_Fall_ICP
-  - Spring-2024-ICDS
-
+  - alshedivat/al-folio
+  - jekyll/jekyll
+  - twbs/bootstrap
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - mathjax/MathJax
+  - jpswalsh/academicons
