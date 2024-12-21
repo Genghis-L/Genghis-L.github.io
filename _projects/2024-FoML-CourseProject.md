@@ -35,12 +35,7 @@ shortcuts:
 
 
 toc:
-    - name: Overview
-    - name: Introduction
-    - name: Methodology
-        subsections:
-            - name: Robust Optimization Objective
-            - name: Optimization Techniques
+  beginning: true
 
 ---
 

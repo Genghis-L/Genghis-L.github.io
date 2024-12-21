@@ -22,8 +22,8 @@ shortcuts:
     link: /assets/pdf/projects/2023-Spring-Symposium-poster.pdf
 
 toc:
-  - name: Overview
-  - name: Presentation
+  beginning: true
+
 ---
 
 ## Overview

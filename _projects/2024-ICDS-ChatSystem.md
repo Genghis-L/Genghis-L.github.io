@@ -22,9 +22,10 @@ shortcuts:
     link: https://www.youtube.com/watch?v=4Y151WKQukI&t=159s
   - name: Code
     link: https://github.com/Genghis-L/Spring-2024-ICDS/tree/main/Final%20Projects
-
+    
 toc:
-  - name: Overview
+  beginning: true
+
 ---
 
 ## Overview
