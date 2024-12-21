@@ -2,11 +2,11 @@
 layout: about
 title: About
 permalink: /
-subtitle: MSCSE @ Harvard SEAS
+subtitle: Junior @ NYU Shanghai
 
 profile:
   align: right
-  image: profile.jpg
+  image: profile.png
   image_circular: false # crops the image to make it circular
   more_info:
 
