@@ -6,8 +6,8 @@ description: A partial collection of my projects, including some dumb ones. 🙃
 nav: true
 nav_order: 3
 display_categories:
-  - Mathematics
-  - Data Science
+  - Softwares
+  - Other Projects
 ---
 
 <!-- pages/projects.md -->
